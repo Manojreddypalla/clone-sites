@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo img {
+            width: 164px;
+
+        }
+
+        nav {
+            display: flex;
+
+            font-family: 'Segoe UI';
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+          
+         
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .right ul {
+            display: flex;
+            list-style: none;
+            gap: 34px;
+            align-items: center;
+            cursor: pointer;
+            justify-content: space-around;
+
+
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 23px;
+            margin: 70px;
+
+        }
+
+        .first span {
+            font-size: 40px;
+        }
+
+        .first span img {
+            width: 82px;
+            margin: 0px 23px;
+
+        }
+
+        .first p {
+            font-size: 20px;
+            text-align: center;
+            width: 44vw;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            background-color: #00b6d1;
+            border-radius: 6px;
+            padding: 14px 16px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .flex {
+            display: flex;
+
+        }
+
+        .large {
+            font-size: 30px;
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .green {
+            background-color: #5cb85c;
+
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 23px;
+            font-size: 20px;
+            border-radius: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #d2e4f0;
+
+        }
+
+        .item-lang {
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 23px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 12px
+        }
+        
+
+        .item-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .download{
+            display: flex;
+            font-family: sans-serif;
+            gap: 10px;
+            align-items: center;
+          
+        }
+        .download img{
+           padding: 0px 2px;
+        }
+        .download :nth-child(2){
+    font-size: 23px;
+}
+@media (max-width: 1200px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <head>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li>products
+                        <span></span><svg width="14px" height="14px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
+                    </li>
+                    <li>pricing
+                        <span></span><svg width="14px" height="14px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
+                    </li>
+                    <li>Resources
+                        <span></span><svg width="14px" height="14px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
+                    </li>
+                    <li>AboutUs
+                        <span></span><svg width="14px" height="14px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
+                    </li>
+                    <li> <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></li>
+                </ul>
+
+            </div>
+        </nav>
+    </head>
+
+
+
+
+
+
+
+
+    <main>
+        <section class="first">
+            <span>Download <b>UltraEdit</b> for Windows <img
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></span>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the
+                text
+                editor.</p>
+            <div>
+                <button class="btn">Download Mac or Linux version</button>
+            </div>
+        </section>
+
+
+
+
+        <section class="second">
+
+
+            <div class="download ">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt="">
+                <span><b> Download UltraEdit</b></span>
+                <span class="small">v2024.3 (released 2025-02-20) | Hotfix information</span>
+            </div>
+
+            <div class="grid">
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">English</div>
+                   <div class="item-buttons">
+                        <button class="btn blue">Download 32 bit</button>
+                        <button class="btn green">Download 64 bit</button>
+                    </div>
+                </div>
+              
+                </div>
+
+                </div>
+            </div>
+
+
+        </section>
+<p>this is manoj doing guys </p>
+    </main>
+
+</body>
+
+</html>
