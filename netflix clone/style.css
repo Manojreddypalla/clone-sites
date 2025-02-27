@@ -18,7 +18,7 @@
 .main .box
 
 {
-    height: 644vh;
+    height: 644px;
     width: 100%;
     opacity:0.69;
     position: absolute;
@@ -33,7 +33,7 @@ nav{
     justify-content: space-between;
     margin: auto;
     display: flex;
-    height: 100px;
+    height: 62px;
    
     align-items: center;
 }
@@ -48,8 +48,8 @@ nav button{
     z-index: 10;
 }
 .hero{
-    font-family: martel sans;
-    height: 100%;
+    font-family: poppins;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ nav button{
     color: white;
     position: relative;
     gap: 23px;
-    padding: 30px;
+    padding:  0px 30px;
 
 
 
@@ -79,4 +79,100 @@ nav button{
 }
 body{
     background-color: black;
+}
+.seperation{
+    height: 11px;
+    background-color: rgb(75, 68, 68);
+}
+.btn
+{
+    font-family: poppins;
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0);
+    border-radius: 4px;
+    color: white;
+    
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding:3px 24px ;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main input{
+    padding:7px 101px 8px 14px ;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid white;
+    color: white;
+}
+.first
+{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+;
+   
+
+}
+
+.secimg.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.secimg img{
+
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+.secimg{
+    position:relative;
+
+    
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+   
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+
 }
